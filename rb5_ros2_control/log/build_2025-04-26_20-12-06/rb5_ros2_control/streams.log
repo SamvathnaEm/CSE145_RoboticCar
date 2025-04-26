@@ -1,0 +1,63 @@
+[0.062s] Invoking command in '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/build/rb5_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/build/rb5_ros2_control -- -j8 -l8
+[0.337s] Invoked command in '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/build/rb5_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/build/rb5_ros2_control -- -j8 -l8
+[0.599s] Invoking command in '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/build/rb5_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/build/rb5_ros2_control
+[0.647s] -- Install configuration: ""
+[0.648s] -- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/environment/pythonpath.sh
+[0.649s] -- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/environment/pythonpath.dsv
+[0.650s] -- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control
+[0.651s] -- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/__init__.py
+[0.652s] -- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/mpi_control.py
+[0.653s] -- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/rb5_control_node.py
+[0.655s] -- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/rb5_keyjoy_control_node.py
+[0.656s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/open_loop_node.py
+[0.657s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/log
+[0.658s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/log/build_2025-04-26_20-07-13
+[0.659s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/log/build_2025-04-26_20-07-13/logger_all.log
+[0.661s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/log/build_2025-04-26_20-07-13/events.log
+[0.662s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/log/COLCON_IGNORE
+[0.664s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/log/latest_build
+[0.665s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/log/latest
+[0.666s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/build
+[0.667s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/build/.built_by
+[0.668s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/build/COLCON_IGNORE
+[0.670s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/install
+[0.670s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/install/.colcon_install_layout
+[0.671s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/install/COLCON_IGNORE
+[0.671s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/install/local_setup.ps1
+[0.671s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/install/_local_setup_util_ps1.py
+[0.672s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/install/setup.ps1
+[0.672s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/install/local_setup.sh
+[0.673s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/install/_local_setup_util_sh.py
+[0.673s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/install/setup.sh
+[0.673s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/install/local_setup.bash
+[0.674s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/install/setup.bash
+[0.674s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/install/local_setup.zsh
+[0.674s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/install/setup.zsh
+[0.719s] Listing '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control'...
+[0.721s] Listing '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/build'...
+[0.723s] Listing '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/install'...
+[0.724s] Compiling '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/install/_local_setup_util_ps1.py'...
+[0.726s] Compiling '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/install/_local_setup_util_sh.py'...
+[0.728s] Listing '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/log'...
+[0.729s] Listing '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/log/build_2025-04-26_20-07-13'...
+[0.730s] Compiling '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/open_loop_node.py'...
+[0.732s] -- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/rb5_ros2_control/mpi_control.py
+[0.733s] -- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/rb5_ros2_control/rb5_control_node.py
+[0.734s] -- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/rb5_ros2_control/rb5_keyjoy_control_node.py
+[0.735s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/rb5_ros2_control/open_loop_node.py
+[0.736s] -- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/ament_index/resource_index/package_run_dependencies/rb5_ros2_control
+[0.737s] -- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/ament_index/resource_index/parent_prefix_path/rb5_ros2_control
+[0.737s] -- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/environment/ament_prefix_path.sh
+[0.738s] -- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/environment/ament_prefix_path.dsv
+[0.739s] -- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/environment/path.sh
+[0.739s] -- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/environment/path.dsv
+[0.740s] -- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/local_setup.bash
+[0.740s] -- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/local_setup.sh
+[0.741s] -- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/local_setup.zsh
+[0.742s] -- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/local_setup.dsv
+[0.742s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/package.dsv
+[0.743s] -- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/ament_index/resource_index/packages/rb5_ros2_control
+[0.743s] -- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/cmake/rb5_ros2_controlConfig.cmake
+[0.744s] -- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/cmake/rb5_ros2_controlConfig-version.cmake
+[0.744s] -- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/package.xml
+[0.755s] Invoked command in '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/build/rb5_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/build/rb5_ros2_control

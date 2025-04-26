@@ -36,6 +36,7 @@ install(PROGRAMS
   rb5_ros2_control/mpi_control.py
   rb5_ros2_control/rb5_control_node.py
   rb5_ros2_control/rb5_keyjoy_control_node.py
+  rb5_ros2_control/open_loop_node.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

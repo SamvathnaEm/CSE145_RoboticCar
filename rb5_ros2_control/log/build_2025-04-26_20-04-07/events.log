@@ -1,0 +1,170 @@
+[0.000000] (-) TimerEvent: {}
+[0.001070] (rb5_ros2_control) JobQueued: {'identifier': 'rb5_ros2_control', 'dependencies': OrderedDict()}
+[0.001564] (rb5_ros2_control) JobStarted: {'identifier': 'rb5_ros2_control'}
+[0.041441] (rb5_ros2_control) JobProgress: {'identifier': 'rb5_ros2_control', 'progress': 'cmake'}
+[0.043373] (rb5_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control'], 'cwd': '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/build/rb5_ros2_control', 'env': OrderedDict([('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('ROS_PYTHON_VERSION', '3'), ('PWD', '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/build/rb5_ros2_control'), ('LOGNAME', 'root'), ('XDG_SESSION_TYPE', 'tty'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/ros2_april_detection:/root/ros2_ws/install/rb5_ros2_vision:/root/ros2_ws/install/rb5_ros2_control:/root/ros2_ws/install/key_joy:/opt/ros/foxy'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/ros2_april_detection:/root/ros2_ws/install/rb5_ros2_vision:/root/ros2_ws/install/rb5_ros2_control:/root/ros2_ws/install/key_joy:/opt/ros/foxy'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('SSH_CONNECTION', '172.20.10.9 35710 172.20.10.2 22'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/root/ros2_ws/install/rb5_ros2_control/lib/python3.8/site-packages:/root/ros2_ws/install/key_joy/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '1'), ('XDG_SESSION_ID', '3'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('ROS_LOCALHOST_ONLY', '0'), ('SSH_CLIENT', '172.20.10.9 35710 22'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('SSH_TTY', '/dev/pts/0'), ('ROS_DISTRO', 'foxy'), ('OLDPWD', '/root/ros2_ws/src/CSE145_RoboticCar'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.098356] (-) TimerEvent: {}
+[0.199515] (-) TimerEvent: {}
+[0.300857] (-) TimerEvent: {}
+[0.401937] (-) TimerEvent: {}
+[0.503201] (-) TimerEvent: {}
+[0.602910] (rb5_ros2_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.604419] (-) TimerEvent: {}
+[0.705381] (-) TimerEvent: {}
+[0.806366] (-) TimerEvent: {}
+[0.907677] (-) TimerEvent: {}
+[0.990622] (rb5_ros2_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.007702] (-) TimerEvent: {}
+[1.021970] (rb5_ros2_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.108032] (-) TimerEvent: {}
+[1.209332] (-) TimerEvent: {}
+[1.311288] (-) TimerEvent: {}
+[1.413318] (-) TimerEvent: {}
+[1.423468] (rb5_ros2_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.433539] (rb5_ros2_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.513371] (-) TimerEvent: {}
+[1.614831] (-) TimerEvent: {}
+[1.716124] (-) TimerEvent: {}
+[1.817835] (-) TimerEvent: {}
+[1.844415] (rb5_ros2_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.893336] (rb5_ros2_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.894888] (rb5_ros2_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.899362] (rb5_ros2_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.918198] (-) TimerEvent: {}
+[2.019746] (-) TimerEvent: {}
+[2.121412] (-) TimerEvent: {}
+[2.223340] (-) TimerEvent: {}
+[2.296704] (rb5_ros2_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.308838] (rb5_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.323383] (-) TimerEvent: {}
+[2.424488] (-) TimerEvent: {}
+[2.526209] (-) TimerEvent: {}
+[2.628434] (-) TimerEvent: {}
+[2.713350] (rb5_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.728518] (-) TimerEvent: {}
+[2.770250] (rb5_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.771893] (rb5_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.778964] (rb5_ros2_control) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.829185] (-) TimerEvent: {}
+[2.836927] (rb5_ros2_control) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.838231] (rb5_ros2_control) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.929477] (-) TimerEvent: {}
+[3.031365] (-) TimerEvent: {}
+[3.133194] (-) TimerEvent: {}
+[3.179834] (rb5_ros2_control) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[3.233345] (-) TimerEvent: {}
+[3.286178] (rb5_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.295738] (rb5_ros2_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[3.333810] (-) TimerEvent: {}
+[3.435960] (-) TimerEvent: {}
+[3.537416] (-) TimerEvent: {}
+[3.639449] (-) TimerEvent: {}
+[3.740681] (-) TimerEvent: {}
+[3.742176] (rb5_ros2_control) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.810056] (rb5_ros2_control) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.841021] (-) TimerEvent: {}
+[3.943588] (-) TimerEvent: {}
+[3.963385] (rb5_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.030131] (rb5_ros2_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[4.032326] (rb5_ros2_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.033917] (rb5_ros2_control) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.043998] (-) TimerEvent: {}
+[4.145739] (-) TimerEvent: {}
+[4.247831] (-) TimerEvent: {}
+[4.349659] (-) TimerEvent: {}
+[4.451512] (-) TimerEvent: {}
+[4.459224] (rb5_ros2_control) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.460963] (rb5_ros2_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.551814] (-) TimerEvent: {}
+[4.653767] (-) TimerEvent: {}
+[4.755076] (-) TimerEvent: {}
+[4.856464] (-) TimerEvent: {}
+[4.870255] (rb5_ros2_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[4.871385] (rb5_ros2_control) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[4.956733] (-) TimerEvent: {}
+[5.058123] (-) TimerEvent: {}
+[5.159879] (-) TimerEvent: {}
+[5.262076] (-) TimerEvent: {}
+[5.264330] (rb5_ros2_control) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[5.265446] (rb5_ros2_control) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[5.362319] (-) TimerEvent: {}
+[5.463433] (-) TimerEvent: {}
+[5.566469] (-) TimerEvent: {}
+[5.668469] (-) TimerEvent: {}
+[5.679075] (rb5_ros2_control) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[5.683724] (rb5_ros2_control) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.768739] (-) TimerEvent: {}
+[5.870470] (-) TimerEvent: {}
+[5.888773] (rb5_ros2_control) StdoutLine: {'line': b'-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[5.963296] (rb5_ros2_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[5.970640] (-) TimerEvent: {}
+[6.072358] (-) TimerEvent: {}
+[6.151229] (rb5_ros2_control) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[6.159463] (rb5_ros2_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.160980] (rb5_ros2_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[6.162297] (rb5_ros2_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.167724] (rb5_ros2_control) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[6.168991] (rb5_ros2_control) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[6.170421] (rb5_ros2_control) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.171868] (rb5_ros2_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.172972] (-) TimerEvent: {}
+[6.174350] (rb5_ros2_control) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[6.179730] (rb5_ros2_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.180985] (rb5_ros2_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.182438] (rb5_ros2_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.190745] (rb5_ros2_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.192536] (rb5_ros2_control) StdoutLine: {'line': b'-- Generating done\n'}
+[6.194438] (rb5_ros2_control) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/build/rb5_ros2_control\n'}
+[6.209640] (rb5_ros2_control) CommandEnded: {'returncode': 0}
+[6.216348] (rb5_ros2_control) JobProgress: {'identifier': 'rb5_ros2_control', 'progress': 'build'}
+[6.229373] (rb5_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/build/rb5_ros2_control', '--', '-j8', '-l8'], 'cwd': '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/build/rb5_ros2_control', 'env': OrderedDict([('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('ROS_PYTHON_VERSION', '3'), ('PWD', '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/build/rb5_ros2_control'), ('LOGNAME', 'root'), ('XDG_SESSION_TYPE', 'tty'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/ros2_april_detection:/root/ros2_ws/install/rb5_ros2_vision:/root/ros2_ws/install/rb5_ros2_control:/root/ros2_ws/install/key_joy:/opt/ros/foxy'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/ros2_april_detection:/root/ros2_ws/install/rb5_ros2_vision:/root/ros2_ws/install/rb5_ros2_control:/root/ros2_ws/install/key_joy:/opt/ros/foxy'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('SSH_CONNECTION', '172.20.10.9 35710 172.20.10.2 22'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/root/ros2_ws/install/rb5_ros2_control/lib/python3.8/site-packages:/root/ros2_ws/install/key_joy/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '1'), ('XDG_SESSION_ID', '3'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('ROS_LOCALHOST_ONLY', '0'), ('SSH_CLIENT', '172.20.10.9 35710 22'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('SSH_TTY', '/dev/pts/0'), ('ROS_DISTRO', 'foxy'), ('OLDPWD', '/root/ros2_ws/src/CSE145_RoboticCar'), ('_', '/usr/bin/env')]), 'shell': False}
+[6.273767] (-) TimerEvent: {}
+[6.375432] (-) TimerEvent: {}
+[6.471854] (rb5_ros2_control) CommandEnded: {'returncode': 0}
+[6.475593] (-) TimerEvent: {}
+[6.576752] (-) TimerEvent: {}
+[6.671874] (rb5_ros2_control) JobProgress: {'identifier': 'rb5_ros2_control', 'progress': 'install'}
+[6.677738] (-) TimerEvent: {}
+[6.725471] (rb5_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/build/rb5_ros2_control'], 'cwd': '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/build/rb5_ros2_control', 'env': OrderedDict([('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('ROS_PYTHON_VERSION', '3'), ('PWD', '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/build/rb5_ros2_control'), ('LOGNAME', 'root'), ('XDG_SESSION_TYPE', 'tty'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/ros2_april_detection:/root/ros2_ws/install/rb5_ros2_vision:/root/ros2_ws/install/rb5_ros2_control:/root/ros2_ws/install/key_joy:/opt/ros/foxy'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/ros2_april_detection:/root/ros2_ws/install/rb5_ros2_vision:/root/ros2_ws/install/rb5_ros2_control:/root/ros2_ws/install/key_joy:/opt/ros/foxy'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('SSH_CONNECTION', '172.20.10.9 35710 172.20.10.2 22'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/root/ros2_ws/install/rb5_ros2_control/lib/python3.8/site-packages:/root/ros2_ws/install/key_joy/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '1'), ('XDG_SESSION_ID', '3'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('ROS_LOCALHOST_ONLY', '0'), ('SSH_CLIENT', '172.20.10.9 35710 22'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('SSH_TTY', '/dev/pts/0'), ('ROS_DISTRO', 'foxy'), ('OLDPWD', '/root/ros2_ws/src/CSE145_RoboticCar'), ('_', '/usr/bin/env')]), 'shell': False}
+[6.777852] (-) TimerEvent: {}
+[6.782704] (rb5_ros2_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.784955] (rb5_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/environment/pythonpath.sh\n'}
+[6.786730] (rb5_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/environment/pythonpath.dsv\n'}
+[6.787919] (rb5_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control\n'}
+[6.789051] (rb5_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/__init__.py\n'}
+[6.790552] (rb5_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/mpi_control.py\n'}
+[6.791697] (rb5_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/rb5_control_node.py\n'}
+[6.792819] (rb5_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/rb5_keyjoy_control_node.py\n'}
+[6.794199] (rb5_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/open_loop_node.py\n'}
+[6.853294] (rb5_ros2_control) StdoutLine: {'line': b"Listing '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control'...\n"}
+[6.855169] (rb5_ros2_control) StdoutLine: {'line': b"Compiling '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/__init__.py'...\n"}
+[6.856431] (rb5_ros2_control) StdoutLine: {'line': b"Compiling '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/mpi_control.py'...\n"}
+[6.857426] (rb5_ros2_control) StdoutLine: {'line': b"Compiling '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/open_loop_node.py'...\n"}
+[6.858390] (rb5_ros2_control) StdoutLine: {'line': b"Compiling '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/rb5_control_node.py'...\n"}
+[6.859289] (rb5_ros2_control) StdoutLine: {'line': b"Compiling '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/rb5_keyjoy_control_node.py'...\n"}
+[6.873076] (rb5_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/rb5_ros2_control/mpi_control.py\n'}
+[6.874966] (rb5_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/rb5_ros2_control/rb5_control_node.py\n'}
+[6.875985] (rb5_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/rb5_ros2_control/rb5_keyjoy_control_node.py\n'}
+[6.877623] (rb5_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/rb5_ros2_control/open_loop_node.py\n'}
+[6.878883] (-) TimerEvent: {}
+[6.881264] (rb5_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/ament_index/resource_index/package_run_dependencies/rb5_ros2_control\n'}
+[6.882533] (rb5_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/ament_index/resource_index/parent_prefix_path/rb5_ros2_control\n'}
+[6.883449] (rb5_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/environment/ament_prefix_path.sh\n'}
+[6.884603] (rb5_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/environment/ament_prefix_path.dsv\n'}
+[6.885502] (rb5_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/environment/path.sh\n'}
+[6.886190] (rb5_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/environment/path.dsv\n'}
+[6.886704] (rb5_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/local_setup.bash\n'}
+[6.887339] (rb5_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/local_setup.sh\n'}
+[6.888075] (rb5_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/local_setup.zsh\n'}
+[6.889179] (rb5_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/local_setup.dsv\n'}
+[6.890430] (rb5_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/package.dsv\n'}
+[6.891932] (rb5_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/ament_index/resource_index/packages/rb5_ros2_control\n'}
+[6.893472] (rb5_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/cmake/rb5_ros2_controlConfig.cmake\n'}
+[6.894352] (rb5_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/cmake/rb5_ros2_controlConfig-version.cmake\n'}
+[6.895726] (rb5_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/package.xml\n'}
+[6.911070] (rb5_ros2_control) CommandEnded: {'returncode': 0}
+[6.979443] (-) TimerEvent: {}
+[7.081499] (-) TimerEvent: {}
+[7.183178] (-) TimerEvent: {}
+[7.202163] (rb5_ros2_control) JobEnded: {'identifier': 'rb5_ros2_control', 'rc': 0}
+[7.205046] (-) EventReactorShutdown: {}

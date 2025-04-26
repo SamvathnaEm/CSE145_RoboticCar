@@ -1,0 +1,91 @@
+[0.044s] Invoking command in '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/build/rb5_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control
+[0.602s] -- The C compiler identification is GNU 9.4.0
+[0.990s] -- The CXX compiler identification is GNU 9.4.0
+[1.021s] -- Check for working C compiler: /usr/bin/cc
+[1.423s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.432s] -- Detecting C compiler ABI info
+[1.844s] -- Detecting C compiler ABI info - done
+[1.893s] -- Detecting C compile features
+[1.894s] -- Detecting C compile features - done
+[1.899s] -- Check for working CXX compiler: /usr/bin/c++
+[2.296s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.308s] -- Detecting CXX compiler ABI info
+[2.713s] -- Detecting CXX compiler ABI info - done
+[2.770s] -- Detecting CXX compile features
+[2.771s] -- Detecting CXX compile features - done
+[2.778s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.836s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.837s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.179s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.286s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.295s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.741s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.810s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.963s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.030s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.031s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.033s] -- Looking for pthread.h
+[4.458s] -- Looking for pthread.h - found
+[4.460s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.869s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.870s] -- Looking for pthread_create in pthreads
+[5.263s] -- Looking for pthread_create in pthreads - not found
+[5.264s] -- Looking for pthread_create in pthread
+[5.678s] -- Looking for pthread_create in pthread - found
+[5.682s] -- Found Threads: TRUE  
+[5.888s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[5.963s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.151s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.159s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.160s] -- Configured cppcheck include dirs: 
+[6.161s] -- Configured cppcheck exclude dirs and/or files: 
+[6.167s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.168s] -- Configured cpplint exclude dirs and/or files: 
+[6.170s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.171s] -- Added test 'lint_cmake' to check CMake code style
+[6.174s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[6.179s] -- Added test 'uncrustify' to check C / C++ code style
+[6.180s] -- Configured uncrustify additional arguments: 
+[6.182s] -- Added test 'xmllint' to check XML markup files
+[6.190s] -- Configuring done
+[6.192s] -- Generating done
+[6.194s] -- Build files have been written to: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/build/rb5_ros2_control
+[6.210s] Invoked command in '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/build/rb5_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control
+[6.238s] Invoking command in '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/build/rb5_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/build/rb5_ros2_control -- -j8 -l8
+[6.472s] Invoked command in '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/build/rb5_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/build/rb5_ros2_control -- -j8 -l8
+[6.729s] Invoking command in '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/build/rb5_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/build/rb5_ros2_control
+[6.783s] -- Install configuration: ""
+[6.785s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/environment/pythonpath.sh
+[6.786s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/environment/pythonpath.dsv
+[6.787s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control
+[6.788s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/__init__.py
+[6.790s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/mpi_control.py
+[6.791s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/rb5_control_node.py
+[6.792s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/rb5_keyjoy_control_node.py
+[6.793s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/open_loop_node.py
+[6.853s] Listing '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control'...
+[6.854s] Compiling '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/__init__.py'...
+[6.855s] Compiling '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/mpi_control.py'...
+[6.856s] Compiling '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/open_loop_node.py'...
+[6.857s] Compiling '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/rb5_control_node.py'...
+[6.858s] Compiling '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/rb5_keyjoy_control_node.py'...
+[6.873s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/rb5_ros2_control/mpi_control.py
+[6.874s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/rb5_ros2_control/rb5_control_node.py
+[6.876s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/rb5_ros2_control/rb5_keyjoy_control_node.py
+[6.877s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/rb5_ros2_control/open_loop_node.py
+[6.880s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/ament_index/resource_index/package_run_dependencies/rb5_ros2_control
+[6.881s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/ament_index/resource_index/parent_prefix_path/rb5_ros2_control
+[6.883s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/environment/ament_prefix_path.sh
+[6.884s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/environment/ament_prefix_path.dsv
+[6.884s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/environment/path.sh
+[6.885s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/environment/path.dsv
+[6.885s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/local_setup.bash
+[6.886s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/local_setup.sh
+[6.887s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/local_setup.zsh
+[6.888s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/local_setup.dsv
+[6.889s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/package.dsv
+[6.891s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/ament_index/resource_index/packages/rb5_ros2_control
+[6.892s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/cmake/rb5_ros2_controlConfig.cmake
+[6.893s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/cmake/rb5_ros2_controlConfig-version.cmake
+[6.895s] -- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/package.xml
+[6.911s] Invoked command in '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/build/rb5_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/build/rb5_ros2_control
