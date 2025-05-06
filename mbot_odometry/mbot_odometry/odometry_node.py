@@ -34,6 +34,9 @@ class OdometryNode(Node):
         self.MBL = 3
         self.MBR = 10
         self.MFL = 11
+        
+        # moving mode
+        self.mode = "FORWARD" # "TURN"
 
         # Publisher
         self.odom_pub = self.create_publisher(PoseWithCovarianceStamped, '/odom', 10)
@@ -57,6 +60,11 @@ class OdometryNode(Node):
         self.bot.motorRun(self.MFR, vfr)
         self.bot.motorRun(self.MBL, -vbl)
         self.bot.motorRun(self.MBR, vbr)
+        # encoder reading only work when we use encoder motor and call encoderMotorRun()
+        # self.bot.encoderMotorRun(self.MFL, -vfl)
+        # self.bot.encoderMotorRun(self.MFR, vfr)
+        # self.bot.encoderMotorRun(self.MBL, -vbl)
+        # self.bot.encoderMotorRun(self.MBR, vbr)
 
     def get_encoder_ticks(self):
         global left_ticks_global, right_ticks_global
@@ -69,7 +77,7 @@ class OdometryNode(Node):
     def update_odometry(self, left_ticks, right_ticks):
         WHEEL_RADIUS = 0.03  # meters
         TICKS_PER_REV = 360  # adjust based on motor
-        WHEEL_BASE = 0.1     # distance between wheels
+        WHEEL_BASE = 0.08     # distance between wheels
 
         delta_left_ticks = left_ticks - self.prev_left_ticks
         delta_right_ticks = right_ticks - self.prev_right_ticks
@@ -90,7 +98,25 @@ class OdometryNode(Node):
         try:
             left_ticks, right_ticks = self.get_encoder_ticks()
             self.update_odometry(left_ticks, right_ticks)
+            
+            # === MOVEMENT BASED ON ODOMETRY ===
+            if self.mode == "FORWARD":
+                if self.x < 1.0:
+                    self.set_four_motors(30, 30, 30, 30)  # drive forward
+                else:
+                    self.set_four_motors(0, 0, 0, 0)  # stop
+                    self.get_logger().info("Reached target x position")
+                    self.mode = "STOP"
 
+            elif self.mode == "TURN":
+                if self.theta < math.radians(90):
+                    self.set_four_motors(-30, 30, -30, 30)  # rotate in place
+                else:
+                    self.set_four_motors(0, 0, 0, 0)
+                    self.get_logger().info("Reached 90 degrees")
+                    self.mode = "STOP"
+                    
+            # === PUBLISH ODOMETRY ===
             msg = PoseWithCovarianceStamped()
             msg.header.stamp = self.get_clock().now().to_msg()
             msg.header.frame_id = "odom"
