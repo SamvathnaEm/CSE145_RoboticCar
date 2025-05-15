@@ -1,7 +1,4 @@
 #include "ros2_april_detection/april_detection.h"
-#include <tf2_ros/transform_listener.h>
-#include <tf2_geometry_msgs/tf2_geometry_msgs.h>
-#include <geometry_msgs/msg/twist.hpp>
 
 AprilDetection::AprilDetection(){
   a_detector = apriltag_detector_create();
@@ -55,15 +52,7 @@ tuple<vector<apriltag_pose_t>, vector<int>, cv::Mat> AprilDetection::processImag
     poses.push_back(pose);
     ids.push_back(det->id);
 
-    geometry_msgs::msg::PoseStamped tag_pose_in_base_frame;
-    tf_buffer.transform(tag_pose_in_camera_frame, tag_pose_in_base_frame, "base_link");
-
   }
-  
-  geometry_msgs::msg::Twist cmd;
-  cmd.linear.x = 0.5;  // Move forward
-  cmd.angular.z = 0.0;  // No rotation
-  cmd_vel_publisher.publish(cmd);
 
   return make_tuple(poses, ids, image);
 
