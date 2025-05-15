@@ -26,6 +26,7 @@ find_package(cv_bridge REQUIRED)
 find_package(tf2 REQUIRED)
 find_package(tf2_ros REQUIRED)
 
+set(apriltag_DIR "/usr/local/lib/cmake/apriltag")
 find_package(apriltag REQUIRED)
 find_package(OpenCV REQUIRED)
 
@@ -54,6 +55,10 @@ install(TARGETS
   april_detection_node
   DESTINATION lib/${PROJECT_NAME})
 
+install(
+  DIRECTORY launch/
+  DESTINATION share/${PROJECT_NAME}/launch
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
