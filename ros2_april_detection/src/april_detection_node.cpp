@@ -112,8 +112,9 @@ class AprilDetectionNode : public rclcpp::Node{
         tf_gm.transform.rotation.w = q.w();
 
         // populate msg
-        msg.header.stamp = this->now();
-        msg.header.frame_id = to_string(ids[i]);
+        msg.header.stamp = tf_gm.header.stamp;         // Use the same timestamp for PoseStamped
+        msg.header.frame_id = "camera";  // Set the parent frame
+        // msg.header.frame_id = to_string(ids[i]);
         msg.pose.position.x = poses[i].t->data[0];
         msg.pose.position.y = poses[i].t->data[1];
         msg.pose.position.z = poses[i].t->data[2];

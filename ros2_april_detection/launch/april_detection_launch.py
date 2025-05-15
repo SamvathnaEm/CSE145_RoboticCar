@@ -12,5 +12,11 @@ def generate_launch_description():
             parameters=[
                 {'use_sim_time': False}  # Set to True if using simulation
             ]
+        ),
+        Node(
+            package='ros2_april_detection',
+            executable='aptil_tf_subscriber',
+            name='aptil_tf_subscriber',
+            output='screen',
         )
     ])

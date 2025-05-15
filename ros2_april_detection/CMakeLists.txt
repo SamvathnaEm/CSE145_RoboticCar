@@ -25,6 +25,7 @@ find_package(geometry_msgs REQUIRED)
 find_package(cv_bridge REQUIRED)
 find_package(tf2 REQUIRED)
 find_package(tf2_ros REQUIRED)
+find_package(tf2_geometry_msgs REQUIRED)
 
 set(apriltag_DIR "/usr/local/lib/cmake/apriltag")
 find_package(apriltag REQUIRED)
@@ -36,6 +37,7 @@ include_directories(
   ${OpenCV_INCLUDE_DIRS}
 )
 
+# Add executable for april_detection_node
 add_executable(april_detection_node src/april_detection_node.cpp src/april_detection.cpp)
 ament_target_dependencies(april_detection_node 
   "rclcpp"
@@ -44,15 +46,26 @@ ament_target_dependencies(april_detection_node
   "geometry_msgs"
   "cv_bridge"
   "tf2"
-  "tf2_ros")
+  "tf2_ros"
+  "tf2_geometry_msgs")
 
 target_link_libraries(april_detection_node
   apriltag::apriltag
   ${OpenCV_LIBRARIES}
 )
 
+# Add executable for aptil_tf_subscriber
+add_executable(aptil_tf_subscriber src/aptil_tf_subsciber.cpp)
+ament_target_dependencies(aptil_tf_subscriber 
+  "rclcpp"
+  "geometry_msgs"
+  "tf2"
+  "tf2_ros"
+  "tf2_geometry_msgs")
+
 install(TARGETS
   april_detection_node
+  aptil_tf_subscriber
   DESTINATION lib/${PROJECT_NAME})
 
 install(
