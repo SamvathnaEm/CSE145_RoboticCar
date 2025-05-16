@@ -63,6 +63,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/rb5_ros2_control/rb5_control_node.py"
     "/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/rb5_ros2_control/rb5_keyjoy_control_node.py"
     "/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/rb5_ros2_control/open_loop_node.py"
+    "/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/rb5_ros2_control/subscriber_node.py"
+    "/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/rb5_ros_control/package_practice1.py"
+    "/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/rb5_ros2_control/keyboard_to_joy.py"
     )
 endif()
 

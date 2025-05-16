@@ -38,6 +38,9 @@ install(PROGRAMS
   rb5_ros2_control/rb5_keyjoy_control_node.py
   rb5_ros2_control/open_loop_node.py
   rb5_ros2_control/subscriber_node.py
+  rb5_ros2_control/package_practice1.py
+  rb5_ros2_control/keyboard_to_joy.py
+  rb5_ros2_control/package_practice2.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

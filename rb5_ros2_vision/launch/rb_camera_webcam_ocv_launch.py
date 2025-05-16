@@ -52,7 +52,7 @@ def generate_launch_description():
     # and use args to set parameters
     rb_camera_main_ocv_node = Node(
             package='rb5_ros2_vision',
-            node_executable='rb_camera_ocv_node',
+            executable='rb_camera_ocv_node', #change node_executable to executable
             name='rb_camera_webcam_ocv',
             output='screen',
             parameters=[{

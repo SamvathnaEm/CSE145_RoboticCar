@@ -1,0 +1,90 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/build/rb5_ros2_control
+-- Install configuration: ""
+-- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/environment/pythonpath.sh
+-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/share/rb5_ros2_control/environment/pythonpath.dsv
+-- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control
+-- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/__init__.py
+-- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/build
+-- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/build/.built_by
+-- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/build/COLCON_IGNORE
+-- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/install
+-- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/install/.colcon_install_layout
+-- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/install/COLCON_IGNORE
+-- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/install/_local_setup_util_ps1.py
+-- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/install/_local_setup_util_sh.py
+-- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/install/local_setup.bash
+-- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/install/local_setup.ps1
+-- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/install/local_setup.sh
+-- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/install/local_setup.zsh
+-- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/install/setup.bash
+-- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/install/setup.ps1
+-- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/install/setup.sh
+-- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/install/setup.zsh
+-- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/log
+-- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/log/COLCON_IGNORE
+-- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/log/build_2025-04-26_20-07-13
+-- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/log/build_2025-04-26_20-07-13/events.log
+-- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/log/build_2025-04-26_20-07-13/logger_all.log
+-- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/log/latest
+-- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/log/latest_build
+-- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/mpi_control.py
+-- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/open_loop_node.py
+-- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/rb5_control_node.py
+-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/rb5_keyjoy_control_node.py
+-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/subscriber_node.py
+-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/test_megaPi.py
+-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/.keyboard_to_joy.py.swp
+-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/keyboard_to_joy.py
+-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/.rb5_keyjoy_control_node.py.swp
+-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/package_practice1.py
+Listing '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control'...
+Compiling '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/__init__.py'...
+Listing '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/build'...
+Listing '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/install'...
+Compiling '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/install/_local_setup_util_ps1.py'...
+Compiling '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/install/_local_setup_util_sh.py'...
+Compiling '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/keyboard_to_joy.py'...
+Listing '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/log'...
+Listing '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/log/build_2025-04-26_20-07-13'...
+Compiling '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/mpi_control.py'...
+Compiling '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/open_loop_node.py'...
+Compiling '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/package_practice1.py'...
+Compiling '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/rb5_control_node.py'...
+Compiling '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/rb5_keyjoy_control_node.py'...
+Compiling '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/subscriber_node.py'...
+Compiling '/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/python3.8/site-packages/rb5_ros2_control/test_megaPi.py'...
+-- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/rb5_ros2_control/mpi_control.py
+-- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/rb5_ros2_control/rb5_control_node.py
+-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/rb5_ros2_control/rb5_keyjoy_control_node.py
+-- Up-to-date: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/rb5_ros2_control/open_loop_node.py
+-- Installing: /root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/install/rb5_ros2_control/lib/rb5_ros2_control/subscriber_node.py
+CMake Error at cmake_install.cmake:61 (file):
+  file INSTALL cannot find
+  "/root/ros2_ws/src/CSE145_RoboticCar/rb5_ros2_control/rb5_ros_control/package_practice1.py":
+  No such file or directory.
+
+

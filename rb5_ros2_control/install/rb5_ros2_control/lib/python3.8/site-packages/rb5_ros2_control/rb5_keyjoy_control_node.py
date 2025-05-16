@@ -49,29 +49,29 @@ class KeyJoy_MegaPiController(Node):
         elif direction == "right":
             if self.verbose:
                 self.logger_.info("Moving right")
-            self.bot.setFourMotors(-speed, -speed, speed, speed)
+            self.bot.setFourMotors(-speed, speed * 0.8,-speed, speed* 0.8)
 
         elif direction == "forward":
             if self.verbose:
                 self.logger_.info("Moving forward")
-            self.bot.setFourMotors(-speed, speed, -speed, speed)
+            self.bot.setFourMotors(speed, speed, speed, speed)
 
         elif direction == "reverse":
             if self.verbose:
                 self.logger_.info("Moving in reverse")
-            self.bot.setFourMotors(speed, -speed, speed, -speed)
+            self.bot.setFourMotors(-speed, -speed, -speed, -speed)
 
         elif direction == "ccwise":
             # TODO: Counter clockwise
             if self.verbose:
                 self.logger_.info("Moving counter clockwise")
-            self.bot.setFourMotors(speed, speed, -speed, -speed)
+            self.bot.setFourMotors(-speed, speed, -speed, speed)
 
         elif direction == "cwise":
             # TODO: clockwise
             if self.verbose:
                 self.logger_.info("Moving clockwise")
-            self.bot.setFourMotors(speed, speed, -speed, -speed)
+            self.bot.setFourMotors(speed, -speed, speed, -speed)
 
         else:
             if self.verbose:
@@ -80,25 +80,26 @@ class KeyJoy_MegaPiController(Node):
 
 
     def joy_callback(self, msg):
-        
+        speed = 35
+
         if msg.axes[0] > 0.0:
             # left
-            self.move("left", 30)
+            self.move("left", speed)
         elif msg.axes[0] < 0.0:
             # right
-            self.move("right", 30)
+            self.move("right", speed)
         elif msg.axes[1] > 0.0:
             # forward
-            self.move("forward", 30)
+            self.move("forward", speed)
         elif msg.axes[1] < 0.0:
             # reverse
-            self.move("reverse", 30)
+            self.move("reverse", speed)
         elif msg.axes[2] < 0.0:
             # turn clock-wise 
-            self.move("cwise", 30)
+            self.move("cwise", speed)
         elif msg.axes[2] > 0.0:
             # turn counter clock-wise 
-            self.move("ccwise", 30)
+            self.move("ccwise", speed)
         else:
             self.move("stop", 0)
 
@@ -111,4 +112,4 @@ if __name__ == "__main__":
     rclpy.spin(key_joy_controller)
 
     key_joy_controller.destroy_node()
-    rclpy.shutdown()
+    rclpy.shutdown()  
