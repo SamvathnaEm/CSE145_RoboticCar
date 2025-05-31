@@ -44,12 +44,12 @@ class KeyJoy_MegaPiController(Node):
         if direction == "left":
             if self.verbose:
                 self.logger_.info("Moving left")
-            self.bot.setFourMotors(speed, speed, -speed, -speed)
+            self.bot.setFourMotors(-speed, speed, -speed, speed)
 
         elif direction == "right":
             if self.verbose:
                 self.logger_.info("Moving right")
-            self.bot.setFourMotors(-speed, speed * 0.8,-speed, speed* 0.8)
+            self.bot.setFourMotors(speed, -speed, speed, -speed)
 
         elif direction == "forward":
             if self.verbose:
@@ -77,6 +77,7 @@ class KeyJoy_MegaPiController(Node):
             if self.verbose:
                 self.logger_.info("Stopping")
             self.bot.setFourMotors(0, 0, 0, 0)
+ 
 
 
     def joy_callback(self, msg):
