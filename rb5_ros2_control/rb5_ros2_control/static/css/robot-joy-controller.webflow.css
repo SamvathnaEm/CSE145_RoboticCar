@@ -1,0 +1,162 @@
+:root {
+  --white: #fffefe;
+  --red: RED;
+}
+
+.screen {
+  height: 50vw;
+  display: flex;
+}
+
+.controller-wrap {
+  background-image: url('../images/frankie-lopez-3TQPwRCnWfE-unsplash.jpg');
+  background-position: 0 0;
+  background-size: auto;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  display: flex;
+}
+
+.camer-screen-wrap {
+  background-color: #0000;
+  border-left: 1px solid #000;
+  border-radius: 1px;
+  flex: 1;
+}
+
+.lower-button {
+  flex: 1;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  min-width: auto;
+  display: flex;
+}
+
+.lower-button.adjust {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.div-block-2 {
+  flex: 1;
+}
+
+.div-block-3 {
+  flex-flow: column;
+  display: flex;
+}
+
+.middle {
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.arrow-up, .arrow-right, .arrow-left, .arrow-down, .stop-button {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.button {
+  color: var(--white);
+  background-color: #000;
+  border-radius: 5px 5px 0 0;
+  padding: 15px 20px;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-size: 16px;
+}
+
+.button-2 {
+  color: var(--white);
+  background-color: #000;
+  border-radius: 0 5px 5px 0;
+  padding: 15px 20px;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-size: 16px;
+}
+
+.button-3 {
+  color: var(--white);
+  background-color: #000;
+  border-radius: 5px 0 0 5px;
+  padding: 15px 20px;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-size: 16px;
+}
+
+.button-4 {
+  color: var(--white);
+  background-color: #000;
+  border-radius: 0 0 5px 5px;
+  padding: 15px 20px;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-size: 16px;
+}
+
+.button-5 {
+  color: var(--white);
+  letter-spacing: 1px;
+  background-color: #000;
+  padding: 15px 20px;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+}
+
+.extra-button-wrap {
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 0;
+  display: flex;
+}
+
+.counter-clockwise {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+}
+
+.clockwise {
+  margin-bottom: 10vw;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.other-button-wrap {
+  background-color: red;
+  border: 2px solid #000;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  display: flex;
+}
+
+.button-6, .button-7 {
+  color: #000;
+  background-color: #3898ec00;
+  padding-left: 10px;
+  padding-right: 5px;
+  font-weight: 700;
+}
+
+.image, .image-2 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+@media screen and (max-width: 479px) {
+  .button-4 {
+    padding-bottom: 15px;
+  }
+}
+
+

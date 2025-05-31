@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Robot Controller</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: sans-serif; text-align: center; padding-top: 30px; }
+    button {
+      padding: 14px 28px;
+      margin: 10px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Robot Joy Control</h2>
+
+  <button onclick="send('forward')">↑ Forward</button><br><br>
+  <button onclick="send('left')">← Left</button>
+  <button onclick="send('stop')">⏹ Stop</button>
+  <button onclick="send('right')">→ Right</button><br><br>
+  <button onclick="send('backward')">↓ Backward</button><br><br>
+  <button onclick="send('ccwise')">↺ CCW</button>
+  <button onclick="send('cwise')">↻ CW</button><br><br>
+
+  <script>
+    function send(direction) {
+      const formData = new URLSearchParams();
+      formData.append("direction", direction);
+
+      fetch('/move', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        body: formData.toString()
+      }).then(response => {
+        if (!response.ok) {
+          console.error("Failed to send:", direction);
+        } else {
+          console.log("Sent:", direction);
+        }
+      });
+    }
+  </script>
+</body>
+</html>

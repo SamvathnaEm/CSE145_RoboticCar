@@ -25,7 +25,9 @@ find_package(geometry_msgs REQUIRED)
 find_package(cv_bridge REQUIRED)
 find_package(tf2 REQUIRED)
 find_package(tf2_ros REQUIRED)
+find_package(tf2_geometry_msgs REQUIRED)
 
+set(apriltag_DIR "/usr/local/lib/cmake/apriltag")
 find_package(apriltag REQUIRED)
 find_package(OpenCV REQUIRED)
 
@@ -35,6 +37,7 @@ include_directories(
   ${OpenCV_INCLUDE_DIRS}
 )
 
+# Add executable for april_detection_node
 add_executable(april_detection_node src/april_detection_node.cpp src/april_detection.cpp)
 ament_target_dependencies(april_detection_node 
   "rclcpp"
@@ -43,17 +46,32 @@ ament_target_dependencies(april_detection_node
   "geometry_msgs"
   "cv_bridge"
   "tf2"
-  "tf2_ros")
+  "tf2_ros"
+  "tf2_geometry_msgs")
 
 target_link_libraries(april_detection_node
   apriltag::apriltag
   ${OpenCV_LIBRARIES}
 )
 
+# Add executable for april_obstacle_avoidance
+add_executable(april_obstacle_avoidance src/april_obstacle_avoidance.cpp)
+ament_target_dependencies(april_obstacle_avoidance 
+  "rclcpp"
+  "geometry_msgs"
+  "tf2"
+  "tf2_ros"
+  "tf2_geometry_msgs")
+
 install(TARGETS
   april_detection_node
+  april_obstacle_avoidance
   DESTINATION lib/${PROJECT_NAME})
 
+install(
+  DIRECTORY launch/
+  DESTINATION share/${PROJECT_NAME}/launch
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

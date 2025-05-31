@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(rb5_ros2_control)
+project(my_rtabmap_odom)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
@@ -17,30 +17,24 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-find_package(ament_cmake_python REQUIRED)
-find_package(rclcpp REQUIRED)
 find_package(rclpy REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
+# uncomment the following section in order to fill in
+# further dependencies manually.
+# find_package(<dependency> REQUIRED)
 
-# include_directories(include)
-# add_executable(${PROJECT_NAME}_node src/rb5_control_node.cpp)
-# ament_target_dependencies(${PROJECT_NAME}_node rclcpp)
-
-# install(TARGETS
-#   ${PROJECT_NAME}_node
-#   DESTINATION lib/${PROJECT_NAME}
-# )
-
-ament_python_install_package(${PROJECT_NAME})
-
-install(PROGRAMS
-  rb5_ros2_control/mpi_control.py
-  rb5_ros2_control/rb5_control_node.py
-  rb5_ros2_control/rb5_keyjoy_control_node.py
-  rb5_ros2_control/open_loop_node.py
-  rb5_ros2_control/subscriber_node.py
+install(
+  PROGRAMS
+    my_rtabmap_odom/tf_to_odom_node.py 
+    my_rtabmap_odom/camera_info_publisher.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
+install(
+  DIRECTORY launch
+  DESTINATION share/${PROJECT_NAME}
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
