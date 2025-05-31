@@ -9,6 +9,8 @@
 class AptilTfSubscriber : public rclcpp::Node {
 public:
     AptilTfSubscriber() : Node("aptil_tf_subscriber") {
+        last_action_time_ = this->get_clock()->now();
+        
         pose_sub_ = this->create_subscription<geometry_msgs::msg::PoseStamped>(
             "/april_poses", 10, std::bind(&AptilTfSubscriber::poseCallback, this, std::placeholders::_1));
 
@@ -121,7 +123,7 @@ private:
     rclcpp::TimerBase::SharedPtr timer_;
     const double obstacle_threshold = 0.5; // Example threshold for obstacle detection
     bool tag_detected_ = false;
-    rclcpp::Time last_action_time_ = this->get_clock()->now();
+    rclcpp::Time last_action_time_;
     geometry_msgs::msg::PoseStamped last_detected_pose_; // Store the last detected pose
 };
 
