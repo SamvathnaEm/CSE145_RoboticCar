@@ -15,8 +15,8 @@ def generate_launch_description():
         ),
         Node(
             package='ros2_april_detection',
-            executable='aptil_tf_subscriber',
-            name='aptil_tf_subscriber',
+            executable='april_obstacle_avoidance',
+            name='april_obstacle_avoidance',
             output='screen',
         )
     ])
