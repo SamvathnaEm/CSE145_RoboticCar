@@ -54,9 +54,9 @@ target_link_libraries(april_detection_node
   ${OpenCV_LIBRARIES}
 )
 
-# Add executable for april_tf_subscriber
-add_executable(april_tf_subscriber src/april_tf_subscriber.cpp)
-ament_target_dependencies(april_tf_subscriber 
+# Add executable for april_obstacle_avoidance
+add_executable(april_obstacle_avoidance src/april_obstacle_avoidance.cpp)
+ament_target_dependencies(april_obstacle_avoidance 
   "rclcpp"
   "geometry_msgs"
   "tf2"
@@ -65,7 +65,7 @@ ament_target_dependencies(april_tf_subscriber
 
 install(TARGETS
   april_detection_node
-  april_tf_subscriber
+  april_obstacle_avoidance
   DESTINATION lib/${PROJECT_NAME})
 
 install(
