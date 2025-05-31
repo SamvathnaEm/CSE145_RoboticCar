@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from flask import Flask, request, render_template
 import rclpy
 from rclpy.node import Node

@@ -38,6 +38,8 @@ install(PROGRAMS
   rb5_ros2_control/rb5_keyjoy_control_node.py
   rb5_ros2_control/open_loop_node.py
   rb5_ros2_control/subscriber_node.py
+  rb5_ros2_control/web_joy_server.py
+  rb5_ros2_control/combined_flask_server.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
